@@ -42,15 +42,11 @@
       },
       "vmVisualStudioVersion": {
         "type": "string",
-        "defaultValue": "VS-2017-Ent-Latest-Win10-N",
+        "defaultValue": "vs-2019-comm-latest-win10-n",
         "allowedValues": [
             "vs-2019-comm-latest-win10-n",
-            "vs-2019-comm-latest-win10-n",
-            "vs-2019-comm-latest-ws2019",
             "vs-2019-comm-latest-ws2019",
             "vs-2019-ent-latest-win10-n",
-            "vs-2019-ent-latest-win10-n",
-            "vs-2019-ent-latest-ws2019",
             "vs-2019-ent-latest-ws2019"
         ],
         "metadata": {
@@ -78,7 +74,7 @@
         "vnet01Subnet1Name": "Subnet-1",
         "vnet01Subnet1Prefix": "10.0.0.0/24",
         "vmImagePublisher": "MicrosoftVisualStudio",
-        "vmImageOffer": "VisualStudio",
+        "vmImageOffer": "visualstudio2019latest",
         "vmOSDiskName": "VMOSDisk",
         "vmVnetName": "[concat(parameters('VMName'), '-net')]",
         "vmVnetID": "[resourceId('Microsoft.Network/virtualNetworks', variables('vmVnetName'))]",
